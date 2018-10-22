@@ -1,0 +1,81 @@
+.allType_header {
+  height: .44rem;
+  background: #ffd500;
+  display: -webkit-flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333333; }
+  .allType_header img, .allType_header i {
+    width: .33rem;
+    height: .33rem; }
+    .allType_header h3 {
+    font-size: .16rem; }
+
+.allType_title {
+  height: .4rem;
+  display: -webkit-flex;
+  justify-content: space-between;
+  padding-right: .1rem;
+  align-items: center;
+  border-bottom: .01rem solid #e0e0e0; }
+  .allType_title .allType_title_left {
+    display: -webkit-flex;
+    align-content: center; }
+    .allType_title .allType_title_left span {
+      width: .06rem;
+      height: .225rem;
+      background: #ffc300; }
+    .allType_title .allType_title_left h5 {
+      font-size: .14rem;
+      height: .225rem;
+      line-height: .225rem;
+      margin-left: .1rem; }
+  .allType_title a {
+    color: #3d3d3d;
+    height: 100%;
+    display: -webkit-flex;
+    align-items: center; }
+    .allType_title a span {
+      margin-left: .06rem;
+      width: .07rem;
+      height: .1rem;
+      background: url(http://10.35.162.9:3000/img2/alltype-jiantou.jpg);
+      background-size: .07rem .1rem; }
+
+.allType_link_box {
+  overflow: hidden; }
+
+.allType_link {
+  float: left;
+  width: .9375rem;
+  height: .8rem;
+  position: relative; }
+  .allType_link span {
+    width: 100%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    bottom: .16rem;
+    color: #696969; }
+
+.allType_comminute {
+  height: .12rem;
+  border: .01rem solid #e0e0e0;
+  background: #f6f6f6; }
+
+.allType_addressLink {
+  width: 25%;
+  float: left;
+  padding: .1rem .095rem 0 .095rem; }
+  .allType_addressLink a {
+    display: inline-block;
+    width: .75rem;
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+    border-radius: .2rem;
+    background: #ffc300;
+    color: #3e3e3e; }
+
+.enjoy_different {
+  width: 3.75rem; }
